@@ -1,0 +1,226 @@
+# Hide sublime text stuff
+*.sublime-project
+*.sublime-workspace
+
+# Hide some OS X stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Ignored folders
+~/.bundle/
+~/.bundle/cache/
+~/.bundle/config
+~/.bundle/gems/
+~/.bundle/ruby/
+~/.cache/
+~/.config/
+~/.local/
+~/.npm/
+~/.nvm/
+
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# pytest
+.pytest_cache
+.cache
+
+# GITHUB Proposed Python stuff:
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+.eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+pip-wheel-metadata
+
+# Logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+nosetests.xml
+htmlcov/
+test-reports/
+test-results.xml
+test-output.xml
+pytest-*.txt
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+.python-version
+
+~/.pyenv/
+~/.pyenv.cache/
+~/.pyenvrc
+~/.pyenvversion
+~/.pylint.d/
+~/.pylint.d/*
+~/.pylint.d/.pylintrc
+~/.pylint.d/.pylintrc.*
+~/.pylint.d/.pylintrc.py
+~/.pylint.d/.pylintrc.yaml
+~/.pylint.d/.pylintrc.yml
+~/.pylint.d/.pylintrc.json
+~/.pylint.d/.pylintrc.jsonnet
+~/.pylint.d/.pylintrc.toml
+~/.pylint.d/.pylintrc.ini
+~/.pylint.d/.pylintrc.cfg
+~/.pylint.d/.pylintrc.config
+~/.pylint.d/.pylintrc.conf
+~/.pylint.d/.pylintrc.local
+~/.pylint.d/.pylintrc.pyc
+~/.pylint.d/.pylintrc.pyo
+~/.pylint.d/.pylintrc.pyw
+~/.pylint.d/.pylintrc.pyx
+~/.pylint.d/.pylintrc.pxd
+~/.pylint.d/.pylintrc.rst
+~/.pylint.d/.pylintrc.txt
+~/.pylint.d/.pylintrc.md
+~/.pylint.d/.pylintrc.markdown
+~/.pylint.d/.pylintrc.mdown
+~/.pylint.d/.pylintrc.mkdn
+~/.pylint.d/.pylintrc.mkd
+~/.pylint.d/.pylintrc.mdwn
+~/.pylint.d/.pylintrc.mdtext
+~/.pylint.d/.pylintrc.rmd
+~/.pylint.d/.pylintrc.html
+~/.pylint.d/.pylintrc.htm
+~/.pylint.d/.pylintrc.js
+~/.pylint.d/.pylintrc.coffee
+~/.pylint.d/.pylintrc.json5
+~/.pylint.d/.pylintrc.jsonnet
+~/.pylint.d/.pylintrc.jsonl
+~/.pylint.d/.pylintrc.jsonlines
+~/.pylint.d/.pylintrc.jsonml
+~/.pylint.d/.pylintrc.ldjson
+~/.pylint.d/.pylintrc.yaml
+~/.pylint.d/.pylintrc.yml
+~/.pylint.d/.pylintrc.xml
+~/.pylint.d/.pylintrc.xsd
+~/.pylint.d/.pylintrc.xsl
+~/.pylint.d/.pylintrc.xslt
+~/.pylint.d/.pylintrc.xul
+~/.pylint.d/.pylintrc.yaml-tmlanguage
+~/.pylint.d/.pylintrc.yaml.sed
+~/.pylint.d/.pylintrc.yaml.snip
+~/.pylint.d/.pylintrc.yaml.skel
+~/.pylint.d/.pylintrc.yaml-clojure
+~/.pylint.d/.pylintrc.yaml.clojure
+~/.pylint.d/.pylintrc.yaml.coffee
+~/.ipython/*
+~/.ipython/profile_default/*
+
+
+~/.ssh/known_hosts
+~/.ssh/known_hosts.old
+~/.ssh/known_hosts.old2
+~/.matplotlib/*
+~/.matplotlib/*.json
+~/.matplotlib/*.log
+~/.matplotlib/*.cache
+~/.matplotlib/*.rc
+~/.matplotlib/*.rc-tmpl
+~/.matplotlib/*.style
+~/.matplotlib/*.mplstyle
+~/.matplotlib/*.fmt
+~/.matplotlib/*.font*
+~/.matplotlib/*.afm
+~/.matplotlib/*.pdf
+~/.matplotlib/*.png
+~/.matplotlib/*.ps
+~/.matplotlib/*.eps
+~/.matplotlib/*.svg
+~/.matplotlib/*.svgz
+~/.matplotlib/*.pgf
+~/.matplotlib/*.tif
+~/.matplotlib/*.tiff
+~/.matplotlib/*.pkl
+~/.matplotlib/*.pickle
+~/.matplotlib/*.pyp
+~/.matplotlib/*.pyc
+
+
+
+# emacs auto backups
+*~
+*#
+*.orig
+
+# venv stuff
+pyvenv.cfg
+pip-selfcheck.json
+venv
+.venv
+Pipfile*
+share/*
+/Scripts/
+
+# vimmy stuff
+*.swp
+*.swo
+tags
+ctags.tmp
+
+# vagrant stuff
+virtualization/vagrant/setup_done
+virtualization/vagrant/.vagrant
+virtualization/vagrant/config
+
+# Visual Studio Code
+~/.vscode/*
+.vscode/*
+!.vscode/cSpell.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+.env
+
+# Windows Explorer
+# desktop.ini
+# /home-assistant.pyproj
+# /home-assistant.sln
+# /.vs/*
+# Thumbnails
+# ._*
+
+# mypy
+/.mypy_cache/*
+/.dmypy.json
+
+# Secrets
+.lokalise_token
+
+# monkeytype
+monkeytype.sqlite3
+
+# This is left behind by Azure Restore Cache
+tmp_cache
+
+# python-language-server / Rope
+.ropeproject
